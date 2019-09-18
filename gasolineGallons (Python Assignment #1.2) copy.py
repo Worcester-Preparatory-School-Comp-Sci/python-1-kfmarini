@@ -1,5 +1,6 @@
 #Kathryn Marini 9/17/19
 def gasolineGallons():
+    #This function calculates the depth of the water of the Great Lakes if it were spread out across the continental US.
     gallons = float(input("Number of gallons of gasoline:"))
     liters = float(gallons * 3.785411784)
     barrelsOfOil = float(gallons / 19.5)
